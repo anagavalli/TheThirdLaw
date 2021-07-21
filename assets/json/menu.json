@@ -1,0 +1,125 @@
+{
+    "textures": {
+        "background": {
+            "file":      "textures/home.png",
+            "wrapS":     "clamp",
+            "wrapT":     "clamp",
+            "minfilter": "linear",
+            "magfilter": "linear"
+        },
+        "homePlay": {
+            "file":      "textures/homePlay.png",
+            "wrapS":     "clamp",
+            "wrapT":     "clamp",
+            "minfilter": "linear",
+            "magfilter": "linear"
+        },
+        "homeLevels": {
+            "file":      "textures/homeLevels.png",
+            "wrapS":     "clamp",
+            "wrapT":     "clamp",
+            "minfilter": "linear",
+            "magfilter": "linear"
+        },
+        "homeSettings": {
+            "file":      "textures/homeSettings.png",
+            "wrapS":     "clamp",
+            "wrapT":     "clamp",
+            "minfilter": "linear",
+            "magfilter": "linear"
+        }
+    },
+    "scenes" : {
+        "menu" : {
+            "type"      : "Node",
+            "format"    : {
+                "type" : "Anchored"
+            },
+            "children"  : {
+                "background"  : {
+                    "type"   : "Image",
+                    "format"    : {
+                        "type" : "Anchored"
+                    },
+                    "data"   : {
+                        "texture"  : "background",
+                        "anchor"   : [0.5,0.5],
+                        "scale"    : 0.54
+                    },
+                    "layout" : {
+                        "x_anchor" : "center",
+                        "y_anchor" : "top",
+                        "y_offset" : -0.52
+                    },
+                    "children" : {
+                        "homePlay"  : {
+                            "type"   : "Button",
+                            "data"   : {
+                                "up"       : {
+                                    "type"   : "Image",
+                                    "data"   : {
+                                        "texture"  : "homePlay"
+                                    }
+                                },
+                                
+                                "visible"  : true,
+                                "anchor"   : [0.5,0.5],
+                                "scale"    : 1.38
+                            },
+                            "layout" : {
+                                "x_anchor" : "center",
+                                "y_anchor" : "middle",
+                                "x_offset" :  0.105,
+                                "y_offset" : -0.137
+                            }
+                        },
+                        "homeLevels"  : {
+                            "type"   : "Button",
+                            "data"   : {
+                                "up"       : {
+                                    "type"   : "Image",
+                                    "data"   : {
+                                        "texture"  : "homeLevels"
+                                    }
+                                },
+                                
+                                "visible"  : true,
+                                "anchor"   : [0.5,0.5],
+                                "scale"    : 1.38
+                            },
+                            "layout" : {
+                                "x_anchor" : "center",
+                                "y_anchor" : "middle",
+                                "x_offset" :  0.368,
+                                "y_offset" : -0.137
+                            }
+                        },
+                        "homeSettings"  : {
+                            "type"   : "Button",
+                            "data"   : {
+                                "up"       : {
+                                    "type"   : "Image",
+                                    "data"   : {
+                                        "texture"  : "homeSettings"
+                                    }
+                                },
+                                
+                                "visible"  : false,
+                                "anchor"   : [0.5,0.5],
+                                "scale"    : 1.38
+                            },
+                            "layout" : {
+                                "x_anchor" : "center",
+                                "y_anchor" : "middle",
+                                "x_offset" :  0.368,
+                                "y_offset" : -0.363
+                            }
+                        }
+                        
+                        
+                    }
+                }
+            }
+        }
+    }
+}

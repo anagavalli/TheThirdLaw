@@ -1,0 +1,205 @@
+{
+  "textures": {
+        "newton_idle_8": {
+          "file": "textures/idle_comb.png"
+        },
+        "newton_shoot": {
+          "file": "textures/shoot_comb.png"
+        },
+		"newton_death": {
+		  "file": "textures/newton_death.png"
+		},
+		"speed_shadow": {
+		  "file": "textures/speed_shadow.png"
+		},
+		"bounce_wall": {
+		  "file": "textures/bouncewall.png"
+		},
+		"shock_wall": {
+		  "file": "textures/shockwall.png"
+		},
+		"red_circle": {
+            "file": "textures/red_circle.png"
+        },
+		"reject_x": {
+		  "file": "textures/X.png"
+		},
+		"shootme": {
+		  "file": "textures/shootme.png"
+		},
+        "quit": {
+            "file": "textures/homeButton.png"
+        },
+        "reset": {
+            "file": "textures/goRetry.png"
+        },
+        "menu": {
+            "file": "textures/goMain.png"
+        },
+        "game over": {
+            "file": "textures/gameover.png"
+        },
+        "healthbar_flash": {
+            "file": "textures/healthbar_flash.png"
+        },
+        "discoball": {
+            "file": "textures/discoball_top.png"
+        },
+        "goal": {
+            "file": "textures/goal.png"
+        },
+        "lock_goal": {
+            "file": "textures/goal_lock.png"
+        },
+        "pause_bg": {
+            "file": "textures/load.jpg"
+        },
+        "shield": {
+          "file": "textures/shield.png"
+        },
+        "exclaim": {
+          "file": "textures/exclaim.png"
+        },
+        "newton_0": {
+          "file": "textures/Newton_256 (1).png"
+        },
+        "enemy_0": {
+          "file": "textures/motion_enemy0.png"
+        },
+        "speed_up_ball": {
+          "file": "textures/disco_ball_up_ball.png"
+        },
+        "speed_up_zone": {
+          "file": "textures/disco_ball_up_zone.png"
+        },
+        "newton_shadow": {
+          "file": "textures/newton_shadow.png"
+        },
+        "newton_proj": {
+          "file": "textures/newton_proj.png"
+        },
+        "enemy_proj_1": {
+          "file": "textures/enemy_proj_1.png"
+        },
+        "bounce_wall_left": {
+          "file": "textures/bounce_wall_left.png"
+        },
+		"shock_wall_sw": {
+		  "file": "textures/shock_wall_sw.png"
+		},
+        "health_bar_top": {
+          "file": "textures/healthbar_top.png"
+        },
+        "health_bar_bot": {
+          "file": "textures/healthbar_bot.png"
+        },
+        "earth": {
+          "file": "textures/earthtile.png",
+          "wrapS": "repeat",
+          "wrapT": "repeat"
+        },
+        "blank": {
+          "file": "textures/blank.png"
+        },
+        "crate01": {
+          "file": "textures/crate01.png"
+        },
+        "crate02": {
+          "file": "textures/crate02.png"
+        },
+        "rocket": {
+          "file": "textures/rocket.png"
+        },
+        "flames": {
+          "file": "textures/flames.png"
+        },
+        "flames-right": {
+          "file": "textures/flames-right.png"
+        },
+        "flames-left": {
+          "file": "textures/flames-left.png"
+        }
+  },
+  "soundfx": {
+          "bump": {
+              "file":     "sounds/bump.wav",
+              "volume":   0.2
+          },
+          "burn": {
+              "file":     "sounds/afterburner.wav",
+              "volume":   0.2
+          },
+          "right-burn": {
+              "file":     "sounds/sideburner-right.wav",
+              "volume":   0.5
+          },
+          "left-burn": {
+              "file":     "sounds/sideburner-left.wav",
+              "volume":   0.5
+          },
+          "newton-hit": {
+              "file":     "sounds/EFFECTS_newtonHit.wav",
+              "volume":   0.2
+          },
+          "newton-shoot": {
+              "file":     "sounds/EFFECTS_newtonShoot.wav",
+              "volume":   0.3
+          },
+          "enemy-hit": {
+              "file":     "sounds/EFFECTS_enemyHit.wav",
+              "volume":   0.2
+          },
+          "enemy-shoot": {
+              "file":     "sounds/EFFECTS_enemyShoot.wav",
+              "volume":   0.3
+          },
+          "enemy-move1": {
+              "file":     "sounds/afterburner.wav",
+              "volume":   0.1
+          },
+          "enemy-move2": {
+              "file":     "sounds/afterburner.wav",
+              "volume":   0.1
+          },
+          "enemy-death1": {
+              "file":     "sounds/EFFECTS_enemyDeath.wav",
+              "volume":   0.2
+          },
+          "enemy-death2": {
+              "file":     "sounds/EFFECTS_enemyDeath.wav",
+              "volume":   0.2
+          }
+    },
+	"fonts": {
+		"retro": {
+			"file":     "fonts/RetroGame.ttf",
+			"size":     64
+		}
+	},
+    "music": {
+        "tutorial": {
+            "file":     "sounds/TutorialSong.mp3",
+            "volume":     0.5
+        },
+        "level1": {
+            "file":     "sounds/Level1.mp3",
+            "volume":     0.5
+        },
+        "level2": {
+            "file":     "sounds/Level2.mp3",
+            "volume":     0.5
+        },
+        "level4": {
+            "file":     "sounds/Level4.mp3",
+            "volume":     0.5
+        },
+        "level5": {
+            "file":     "sounds/Level5.mp3",
+            "volume":     0.5
+        },
+        "boss": {
+            "file":     "sounds/SONG_boss.mp3",
+            "volume":     0.5
+        }
+    }
+}

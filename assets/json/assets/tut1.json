@@ -1,0 +1,13 @@
+{
+	"textures": {
+		"tut1_map": {
+          "file": "textures/tut1_map.png"
+        },
+		"seeker_idle": {
+		  "file": "textures/seeker_idle.png"
+		},
+		"seeker_shoot": {
+		  "file": "textures/seeker_shoot.png"
+		}
+	}
+}

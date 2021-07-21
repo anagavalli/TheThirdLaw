@@ -1,0 +1,14 @@
+{
+	"textures": {
+		"boss_level": {
+          "file": "textures/boss1.png"
+        },
+		"shield_boss_idle": {
+		  "file": "textures/shield_boss_idle.png"
+		},
+		"shield_boss_shoot": {
+		  "file": "textures/shield_boss_shoot.png"
+		}
+		
+	}
+}

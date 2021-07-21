@@ -1,0 +1,271 @@
+{
+    "textures": {
+        "back": {
+            "file":      "textures/load.jpg",
+            "wrapS":     "clamp",
+            "wrapT":     "clamp",
+            "minfilter": "linear",
+            "magfilter": "linear"
+        },
+        "click": {
+            "file":      "textures/homeButton.png",
+            "wrapS":     "clamp",
+            "wrapT":     "clamp",
+            "minfilter": "linear",
+            "magfilter": "linear"
+        },
+        "home": {
+            "file":      "textures/homePlay.png",
+            "wrapS":     "clamp",
+            "wrapT":     "clamp",
+            "minfilter": "linear",
+            "magfilter": "linear"
+        },
+        "tutorialbutton": {
+            "file":      "textures/tutorialButton.png",
+            "wrapS":     "clamp",
+            "wrapT":     "clamp",
+            "minfilter": "linear",
+            "magfilter": "linear"
+        },
+        "level1button": {
+            "file":      "textures/level2button.png",
+            "wrapS":     "clamp",
+            "wrapT":     "clamp",
+            "minfilter": "linear",
+            "magfilter": "linear"
+        },
+        "level2button": {
+            "file":      "textures/level1button.png",
+            "wrapS":     "clamp",
+            "wrapT":     "clamp",
+            "minfilter": "linear",
+            "magfilter": "linear"
+        },
+        "level3button": {
+            "file":      "textures/level6button.png",
+            "wrapS":     "clamp",
+            "wrapT":     "clamp",
+            "minfilter": "linear",
+            "magfilter": "linear"
+        },
+        "level4button": {
+            "file":      "textures/level3button.png",
+            "wrapS":     "clamp",
+            "wrapT":     "clamp",
+            "minfilter": "linear",
+            "magfilter": "linear"
+        },
+        "level5button": {
+            "file":      "textures/level4button.png",
+            "wrapS":     "clamp",
+            "wrapT":     "clamp",
+            "minfilter": "linear",
+            "magfilter": "linear"
+        },
+        "level6button": {
+            "file":      "textures/level5button.png",
+            "wrapS":     "clamp",
+            "wrapT":     "clamp",
+            "minfilter": "linear",
+            "magfilter": "linear"
+        }
+    },
+    "scenes" : {
+        "select" : {
+            "type"      : "Node",
+            "format"    : {
+                "type" : "Anchored"
+            },
+            "children"  : {
+                "back"  : {
+                    "type"   : "Image",
+                    "format"    : {
+                        "type" : "Anchored"
+                    },
+                    "data"   : {
+                        "texture"  : "back",
+                        "anchor"   : [0.5,0.5],
+                        "scale"    : 0.43
+                    },
+                    "layout" : {
+                        "x_anchor" : "center",
+                        "y_anchor" : "top",
+                        "y_offset" : -0.5
+                    },
+                    "children" : {
+                        "level1"  : {
+                            "type"   : "Button",
+                            "data"   : {
+                                "up"       : {
+                                    "type"   : "Image",
+                                    "data"   : {
+                                        "texture"  : "level1button"
+                                    }
+                                },
+                                
+                                "visible"  : true,
+                                "anchor"   : [0.5,0.5],
+                                "scale"    : 1.5
+                            },
+                            "layout" : {
+                                "x_anchor" : "center",
+                                "y_anchor" : "middle",
+                                "x_offset" : -0.3,
+                                "y_offset" :  0.20
+                            }
+                        },
+                        "level2"  : {
+                            "type"   : "Button",
+                            "data"   : {
+                                "up"       : {
+                                    "type"   : "Image",
+                                    "data"   : {
+                                        "texture"  : "level2button"
+                                    }
+                                },
+                                
+                                "visible"  : false,
+                                "anchor"   : [0.5,0.5],
+                                "scale"    : 1.5
+                            },
+                            "layout" : {
+                                "x_anchor" : "center",
+                                "y_anchor" : "middle",
+                                "x_offset" :  0,
+                                "y_offset" :  0.20
+                            }
+                        },
+                        "level3"  : {
+                            "type"   : "Button",
+                            "data"   : {
+                                "up"       : {
+                                    "type"   : "Image",
+                                    "data"   : {
+                                        "texture"  : "level3button"
+                                    }
+                                },
+                               
+                                "visible"  : false,
+                                "anchor"   : [0.5,0.5],
+                                "scale"    : 1.5
+                            },
+                            "layout" : {
+                                "x_anchor" : "center",
+                                "y_anchor" : "middle",
+                                "x_offset" :  0.3,
+                                "y_offset" :  0.20
+                            }
+                        },
+                        "tutorial"  : {
+                            "type"   : "Button",
+                            "data"   : {
+                                "up"       : {
+                                    "type"   : "Image",
+                                    "data"   : {
+                                        "texture"  : "tutorialbutton"
+                                    }
+                                },
+                                
+                                "visible"  : true,
+                                "anchor"   : [0.5,0.5],
+                                "scale"    : 0.8
+                            },
+                            "layout" : {
+                                "x_anchor" : "center",
+                                "y_anchor" : "middle",
+                                "x_offset" :  0,
+                                "y_offset" :  0
+                            }
+                        },
+                        "level4"  : {
+                            "type"   : "Button",
+                            "data"   : {
+                                "up"       : {
+                                    "type"   : "Image",
+                                    "data"   : {
+                                        "texture"  : "level4button"
+                                    }
+                                },
+                                
+                                "visible"  : false,
+                                "anchor"   : [0.5,0.5],
+                                "scale"    : 1.5
+                            },
+                            "layout" : {
+                                "x_anchor" : "center",
+                                "y_anchor" : "middle",
+                                "x_offset" : -0.3,
+                                "y_offset" : -0.2
+                            }
+                        },
+                        "level5"  : {
+                            "type"   : "Button",
+                            "data"   : {
+                                "up"       : {
+                                    "type"   : "Image",
+                                    "data"   : {
+                                        "texture"  : "level5button"
+                                    }
+                                },
+                                
+                                "visible"  : false,
+                                "anchor"   : [0.5,0.5],
+                                "scale"    : 1.5
+                            },
+                            "layout" : {
+                                "x_anchor" : "center",
+                                "y_anchor" : "middle",
+                                "x_offset" :  0,
+                                "y_offset" : -0.2
+                            }
+                        },
+                        "level6"  : {
+                            "type"   : "Button",
+                            "data"   : {
+                                "up"       : {
+                                    "type"   : "Image",
+                                    "data"   : {
+                                        "texture"  : "level6button"
+                                    }
+                                },
+                                
+                                "visible"  : false,
+                                "anchor"   : [0.5,0.5],
+                                "scale"    : 1.5
+                            },
+                            "layout" : {
+                                "x_anchor" : "center",
+                                "y_anchor" : "middle",
+                                "x_offset" :  0.3,
+                                "y_offset" : -0.2
+                            }
+                        },
+                        "home"  : {
+                            "type"   : "Button",
+                            "data"   : {
+                                "up"       : {
+                                    "type"   : "Image",
+                                    "data"   : {
+                                        "texture"  : "click"
+                                    }
+                                },
+                                
+                                "visible"  : true,
+                                "anchor"   : [0.5,0.5],
+                                "scale"    : 0.6
+                            },
+                            "layout" : {
+                                "x_anchor" : "center",
+                                "y_anchor" : "middle",
+                                "x_offset" : -0.425,
+                                "y_offset" :  0.35
+                            }
+                        }
+                        
+                    }
+                }
+            }
+        }
+    }
+}

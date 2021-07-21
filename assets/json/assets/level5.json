@@ -1,0 +1,23 @@
+{
+	"textures": {
+		"boss_level2": {
+          "file": "textures/boss2.png"
+        },
+		"chase_boss_p1_shoot": {
+		  "file": "textures/chase_boss_p1_shoot.png"
+		},
+		"chase_boss_p1_move": {
+		  "file": "textures/chase_boss_p1_move.png"
+		},
+		"chase_boss_transform": {
+		  "file": "textures/chase_boss_transform.png"
+		},
+		"chase_boss_p2_shoot": {
+		  "file": "textures/chase_boss_p2_shoot.png"
+		},
+		"chase_boss_p2_move": {
+		  "file": "textures/chase_boss_p2_move.png"
+		}
+		
+	}
+}

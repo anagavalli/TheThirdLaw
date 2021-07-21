@@ -1,0 +1,13 @@
+{
+	"textures": {
+		"tutorial": {
+          "file": "textures/spiral.png"
+        },
+		"seeker_idle": {
+		  "file": "textures/seeker_idle.png"
+		},
+		"seeker_shoot": {
+		  "file": "textures/seeker_shoot.png"
+		}
+	}
+}
