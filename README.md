@@ -1,8 +1,6 @@
-# Open Beta Release
+# Notes
 
-We have successfully transfered our project from only working in Visual Studio to have a working and valid XCode project. The XCode project can be found under the "build-apple" folder labeled as "HelloWorld.xcodeproj." The project compiles and runs in both in Mac and an iOS device.
-
-PLEASE NOTE: We have the app in test flight, so we added Walker to the iTunes Connect users (wmw2@cornell.edu). In the future we will use this to submit our game (i.e. Showcase).
+Code from a 6 person student mobile game where I served as programming lead. Placed here primarily for archival purposes, will be cleaned up and made easily runnable Soon(TM).
 
 # The Third Law
 
